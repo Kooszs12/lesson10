@@ -4,8 +4,8 @@ class Car
   end
 end
 
-class Truck < Car
+class Taxi < Car
 end
 
-truck=Truck.new
-truck.run(5)
+taxi = Taxi.new
+taxi.run(5)
